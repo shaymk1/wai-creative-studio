@@ -3,8 +3,10 @@
 	<head>
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		- extra meta tags
-           -->
+		<!-- -
+			 extra meta tags 
+		-->
+
 		<meta name="theme-color" content="#000000" />
 		<meta
 			name="description"
@@ -12,15 +14,18 @@
 		/>
 		<meta
 			name="description"
-			content="This is a  website of Wai Creative Studio, a digital agency based in Johannesburg, South Africa "
+			content="This is a website of Wai Creative Studio, a digital agency based in Johannesburg, South Africa . We specialize in UX/UI design, Web Design and Web Development. "
 		/>
 		<meta name="og:title" content="Wai Creative Studio Website" />
 		<meta
 			name="og:description"
-			content="This is a  website of Wai Creative Studio, a digital agency based in Johannesburg, South Africa "
+			content="This is a  website of Wai Creative Studio, a digital agency based in Johannesburg, South Africa.We specialize in UX/UI design, Web Design and Web Development. "
 		/>
 		<meta name="og:image" content="./assets/images/logo.svg" />
-		<meta name="keywords" content="digital agency, web design, wordpress, UX/UI, SEO, analytics, web development, coding, affordable"/>
+		<meta
+			name="keywords"
+			content="digital agency, web design, wordpress, UX/UI, SEO, analytics, web development, coding, affordable, digital product, user centred"
+		/>
 		<!-- 
     - custom css link
   -->
@@ -38,7 +43,7 @@
 		<header class="header" data-header>
 			<div class="container">
 				<a href="#" class="logo">
-					<img src="assets/images/logo-2.svg" alt="" />
+					<img src="assets/images/logo.svg" alt="logo image" />
 				</a>
 
 				<nav class="navbar" data-navbar>
@@ -47,7 +52,7 @@
                     -->
 					<div class="wrapper">
 						<a href="#" class="logo">
-							<img src="assets/images/logo-2.svg" alt="" />
+							<img src="assets/images/logo.svg" alt="logo image" />
 						</a>
 
 						<button
@@ -88,11 +93,12 @@
 					<ion-icon name="menu-outline" aria-hidden="true"></ion-icon>
 				</button>
 
-				<a href="#" class="btn-outline">Lets talk</a>
+				<!-- <a href="#" class="btn-outline">Lets talk</a> -->
 
 				<div class="overlay" data-nav-toggler data-overlay></div>
 			</div>
 		</header>
+
 		<!-- 
         - #HERO
       -->
@@ -100,43 +106,38 @@
 			<section class="section hero" id="home" aria-label="hero">
 				<div class="container">
 					<div class="hero-content">
-						<p class="hero-subtitle has-before">
-							Welcome to <span>Wai Creative Studio</span>
+						<p class="section-subtitle ">
+							-Welcome to-
 						</p>
+						<h2>Wai Creative Studio</h2>
 
 						<h1 class="h1 hero-title">
-							Solutions for your Digital Design <br />
-							and your Web Developments needs
+							Digital Design and Web Development agency
 						</h1>
 
 						<p class="hero-text">
-							Are you looking for a professional web developer and a digital
-							designer to get your business on line? If so, you have come to the
-							right place. I offer a variety of solutions tailored for your
-							special needs. From UX/UI Design, Web Design to Web Development.
+							We specialize in creating functional and user centred Digital
+							Products. We offer a variety of services tailored to your needs.
+							From UX/UI design, to Web Design and Web Development.
 						</p>
 
 						<div class="btn-group">
 							<a href="#services" class="btn btn-primary">Discover More</a>
-
-							<!-- <button class="flex-btn">
-                                <div class="btn-icon">
-                                    <ion-icon name="play" aria-hidden="true"></ion-icon>
-                                </div>
-    
-                                <span class="span">How it works</span>
-                            </button> -->
 						</div>
 					</div>
-
+<!-- has-before img-holder -->
+<!-- style="--width: 650; --height: 650"  -->
 					<figure
-						class="hero-banner has-before img-holder"
-						style="--width: 650; --height: 650"
+					
+						class="hero-banner"
+						
+						
 					>
 						<img
-							src="./assets/images/about-us.jpg"
+							src="./assets/images/ux-1.jpg"
 							width="650"
 							height="650"
+							loading="lazy"
 							alt="hero banner"
 							class="img-cover"
 						/>
@@ -149,35 +150,21 @@
 
 			<section class="section about" id="about" aria-label="about">
 				<div class="container">
-					<figure class="about-banner">
-						<img
-							src="./assets/images/about-banner.png"
-							width="802"
-							height="654"
-							loading="lazy"
-							alt="about banner"
-							class="w-100"
-						/>
-					</figure>
-
 					<div class="about-content">
-						<h2 class="h2-sm section-title">
-							We Create Web Solutions From Design To Development
-						</h2>
+						<p class="section-subtitle text-center">-Learn More About Us-</p>
+
+						<h2 class="h2 section-title text-center">About Us</h2>
+						
 
 						<p class="section-text">
-							Our job is to create beautiful functional Web Design for your
-							business.
+							Our job is to create beautiful functional user-centric Digital
+							Products for your business.
 						</p>
 
 						<ul class="about-list">
-							<li class="has-before">
-								Customizable Pricing Models
-							</li>
+							<li class="has-before">Customizable Pricing Models</li>
 
-							<li class="has-before">
-								No Contracts
-							</li>
+							<li class="has-before">No Contracts</li>
 
 							<li class="has-before">6 Months Free Technical Support</li>
 						</ul>
@@ -194,6 +181,16 @@
                   </button> -->
 						</div>
 					</div>
+						<figure class="about-banner">
+						<img
+							src="./assets/images/ux-5.jpg"
+							width="802"
+							height="654"
+							loading="lazy"
+							alt="about banner"
+							class="w-100"
+						/>
+					</figure>
 				</div>
 			</section>
 
@@ -374,7 +371,8 @@
 								<h3 class="h3 card-title">Free 6 Months Technical Support</h3>
 
 								<p class="card-text">
-									We offer free 6 months Technical support. Our Technicians will be ready to take your calls. 
+									We offer free 6 months Technical support. Our Technicians will
+									be ready to take your calls.
 								</p>
 							</div>
 						</li>

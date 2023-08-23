@@ -545,6 +545,8 @@ p {
 	display: grid;
 	gap: 50px;
 }
+
+.hero-content 
 .hero-subtitle {
 	color: black;
 	font-size: var(--fs-12);
@@ -553,6 +555,8 @@ p {
 	margin-inline: auto;
 	z-index: 0;
 }
+
+
 
 .hero-subtitle span {
 	color: var(--color-primary);
@@ -569,6 +573,8 @@ p {
 
 .hero-title {
 	margin-block: 10px 15px;
+	font-size:5rem;
+	
 }
 
 .hero-text {
@@ -603,9 +609,10 @@ p {
 	font-weight: var(--fw-600);
 }
 
-.hero-banner,
+
 .hero-banner > img {
-	border-radius: 50%;
+	border-radius: 3rem;
+	border:solid 1rem var(--cultured);
 }
 
 .hero-banner::before {
@@ -632,6 +639,12 @@ p {
 
 .about-banner {
 	filter: drop-shadow(2px 2px 5px hsla(0, 0%, 0%, 0.08));
+	
+}
+
+.about-banner img{
+border-radius: 3rem;
+	border:solid 1rem var(--cultured);
 }
 
 .about .section-text {
@@ -920,6 +933,18 @@ p {
  * responsive for large than 575px screen
  */
 
+@media (max-width: 600px){
+	.hero-content p{
+text-align:center;
+}
+
+}
+
+@media (max-width: 1024px){
+	.hero-content p{
+text-align:center;
+}
+}
 @media (min-width: 575px) {
 
   /**
@@ -971,6 +996,8 @@ p {
   .service-card .card-icon { margin-inline: 0; }
   
   .service-card .btn-link { justify-content: flex-start; }
+  
+
 
 }
 
