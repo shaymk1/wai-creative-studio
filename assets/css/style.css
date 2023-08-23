@@ -873,6 +873,10 @@ p {
 	color: var(--color-gray-100);
 }
 
+.contact__form textarea{
+	margin-bottom:2rem;
+}
+
 .contact__form .btn {
 	font-weight: var(--fw-600);
 	text-transform: capitalize;
