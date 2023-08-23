@@ -764,7 +764,7 @@ p {
 	box-shadow: var(--shadow-1);
 	transition: var(--transition-2);
 	height: 100%;
-	border-radius:2rem;
+	border-radius: 2rem;
 }
 
 .features-card:hover {
@@ -793,7 +793,7 @@ p {
 .features-card .card-title {
 	font-size: var(--fs-6);
 	margin-block-end: 5px;
-	margin-bottom:1rem;
+	margin-bottom: 1rem;
 }
 
 .features-card :is(.card-title, .card-text) {
@@ -848,19 +848,17 @@ p {
 
 .form-container {
 	width: 100%;
-	
 }
 
 .contact__form {
 	display: flex;
 	flex-direction: column;
 	gap: 1.4rem;
-	border-radius:1rem;
+	border-radius: 1rem;
 }
 
 .contact__form label {
 	color: var(--color-primary);
-
 }
 
 .contact__form label > span {
@@ -1059,21 +1057,21 @@ p {
 
 	/* features */
 
-	.features-card{
+	.features-card {
 		background-color: var(--rich-black-fogra-29-1);
-		color:var(--cultured);
-		border-radius:2rem;
+		color: var(--cultured);
+		border-radius: 2rem;
 	}
 
-	.features-card .card-title{
-		color:var(--cultured);
+	.features-card .card-title {
+		color: var(--cultured);
 	}
 
-	.features-card .card-number{
-		background:var(--color-secondary);
+	.features-card .card-number {
+		background: var(--color-secondary);
 	}
-	.features-card .card-text{
-		color:var(--light-gray);
+	.features-card .card-text {
+		color: var(--light-gray);
 	}
 	/* contact */
 	.container .contact-content {
@@ -1090,18 +1088,15 @@ p {
 		align-items: center;
 		text-align: center;
 		justify-content: center;
-	
 	}
 
 	.contact__list .contact__list-item {
-		text-align: center; 
+		text-align: center;
 		font-size: 4rem;
 		color: black;
 		background: transparent;
-		outline-style:solid;
-		padding:1rem;
-		
-		
+		outline-style: solid;
+		padding: 1rem;
 	}
 	/* form */
 	.form-container .contact__form {
@@ -1114,21 +1109,21 @@ p {
 		text-align: center;
 	}
 
-	.features-card{
+	.features-card {
 		background-color: var(--rich-black-fogra-29-1);
-		color:var(--cultured);
-		border-radius:2rem;
+		color: var(--cultured);
+		border-radius: 2rem;
 	}
 
-	.features-card .card-title{
-		color:var(--cultured);
+	.features-card .card-title {
+		color: var(--cultured);
 	}
 
-	.features-card .card-number{
-		background:var(--color-secondary);
+	.features-card .card-number {
+		background: var(--color-secondary);
 	}
-	.features-card .card-text{
-		color:var(--light-gray);
+	.features-card .card-text {
+		color: var(--light-gray);
 	}
 
 	/* contact */
@@ -1146,25 +1141,22 @@ p {
 		align-items: center;
 		text-align: center;
 		justify-content: center;
-	
 	}
 
 	.contact__list .contact__list-item {
-		text-align: center; 
+		text-align: center;
 		font-size: 4rem;
 		color: black;
 		background: transparent;
-		outline-style:solid;
-		padding:1rem;
-		
-		
+		outline-style: solid;
+		padding: 1rem;
 	}
 	/* form */
 	.form-container .contact__form {
 		margin-left: 4rem;
 	}
 
-/* .contact .container .contact-content {
+	/* .contact .container .contact-content {
 	
 	place-items:center;
 }
@@ -1172,8 +1164,6 @@ p {
 .container .contact-content .form-container{
 	padding-right:2rem;
 } */
-
-
 }
 @media (min-width: 575px) {
 	/**
