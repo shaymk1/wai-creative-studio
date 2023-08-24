@@ -169,19 +169,48 @@ body {
 	--transition-1: 0.25s ease;
 	--transition-2: 0.5s ease;
 	--cubic-out: cubic-bezier(0.33, 0.85, 0.4, 0.96);
+/**
+   * container
+   */
+	--container-width-lg: 80%;
+	--container-width-sm: 95%;
 }
 
 /*-----------------------------------*\
   #REUSED STYLE
 \*-----------------------------------*/
 
+/* .container {
+	 padding-inline: 15px; 
+
+} */
+
 .container {
-	padding-inline: 15px;
+	width: var(--container-width-lg);
+	margin-inline: auto;
 }
 
-.section {
+
+/* .section {
 	padding-block: var(--section-padding);
+} */
+
+/* sections */
+section {
+	padding: 9rem 0;
 }
+
+section > h1,
+section > p {
+	width: 50%;
+	text-align: center;
+	margin-inline: auto;
+}
+
+section > h1 {
+	margin-bottom: 0.5rem;
+}
+
 
 .has-before,
 .has-after {
@@ -305,9 +334,9 @@ body {
 	padding-inline: 15px;
 }
 
-.section {
+/* .section {
 	padding-block: var(--section-padding);
-}
+} */
 
 .has-before,
 .has-after {
