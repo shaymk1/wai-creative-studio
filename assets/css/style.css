@@ -869,7 +869,7 @@ p {
 	cursor: pointer;
 }
 
-.contact-item ion-icon {
+.contact-item-list-1 .contact-item .contact-icon {
 	font-size: 2.5rem;
 	transition: var(--transition-2);
 }
