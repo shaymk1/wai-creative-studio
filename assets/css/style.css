@@ -1115,8 +1115,8 @@ margin-top:2rem;
 	}
 
 	/* hero */
-	.hero-content .section-subtitle {
-		margin-left: 3.8rem; 
+	.hero-content .hero-subtitle {
+		 margin-left: -2rem;  
 		
 	}
 
@@ -1166,9 +1166,9 @@ margin-top:2rem;
 		display: none;
 	}
 
-	.hero-content .section-subtitle {
+	/* .hero-content .section-subtitle {
 		margin-left: 12.8rem;
-	}
+	} */
 
 	.features-card {
 		/* background-color: var(--rich-black-fogra-29-1);
