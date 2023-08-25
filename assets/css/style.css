@@ -721,10 +721,13 @@ p {
 }
 
 .service-card {
+	background:white;
 	height: 100%;
 	padding: 30px 25px;
 	text-align: center;
 	box-shadow: var(--shadow-1);
+	border-radius:2rem;
+	margin-bottom:2rem;
 }
 
 .service-card::after {
@@ -758,9 +761,14 @@ p {
 	margin-block: 5px 13px;
 }
 
-.service .btn {
+/* .service .btn {
 	margin-inline: auto;
-}
+	
+} */
+
+ .container .btn-primary{
+margin-top:2rem;
+} 
 
 /*-----------------------------------*\
   #FEATURES
