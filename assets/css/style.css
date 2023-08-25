@@ -1116,7 +1116,7 @@ margin-top:2rem;
 
 	/* hero */
 	.hero-content .section-subtitle {
-		/* margin-left: 3.8rem; */
+		margin-left: 3.8rem; 
 		
 	}
 
@@ -1124,7 +1124,7 @@ margin-top:2rem;
 		margin: 0 auto;
 	}
 	.hero-title {
-		font-size: 3.5rem;
+		font-size: 3rem;
 	}
 
 	.hero-content h2 {
