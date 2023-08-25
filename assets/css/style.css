@@ -1117,7 +1117,11 @@ margin-top:2rem;
 	/* hero */
 	.hero-content .section-subtitle {
 		/* margin-left: 3.8rem; */
-		text-align:center;
+		
+	}
+
+	.hero-content{
+		margin: 0 auto;
 	}
 	.hero-title {
 		font-size: 3.5rem;
