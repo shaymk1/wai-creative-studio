@@ -713,11 +713,13 @@ p {
 .services {
 	background-color: var(--mint-cream);
 }
-.service .section-text {
-	margin-block: 15px 50px;
+.services .section-text {
+	margin-block: 15px 50px; 
+	/* margin-bottom:2rem; */
+	
 }
 
-.service .grid-list {
+.services .grid-list {
 	margin-block-end: 50px;
 }
 
@@ -837,13 +839,7 @@ p {
 .container {
 	width: 80%;
 }
-/* .container .contact-content {
-	display: grid;
-	grid-template-columns: 1fr 8fr;
-	place-items: center;
-	gap: 10rem;
-	margin-top: 5rem;
-} */
+
 
 .container .contact-content {
 	display: grid;
@@ -851,12 +847,22 @@ p {
 	margin-top: 6rem;
 }
 
+.contact-item-list-1{
+
+
+}
 .contact-item-list-1 .contact-list {
 	display: flex;
 	flex-direction: row;
 	justify-content: center;
 	align-items: center;
 	gap: 3rem;
+	border-bottom : solid 1px gray;
+	margin-bottom:1rem;
+}
+
+.footer-item-list-2 .social-list{
+	margin-top:2rem;
 }
 
 .contact-item-list-1 .contact-list .contact-item {
