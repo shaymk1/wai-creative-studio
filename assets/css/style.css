@@ -301,8 +301,6 @@ section > h1 {
 	font-weight: var(--fw-600);
 }
 
-
-
 .grid-list {
 	display: grid;
 	gap: 20px;
@@ -574,7 +572,7 @@ p {
 
 .hero-subtitle span {
 	color: var(--color-primary);
-	font-size:2rem;
+	font-size: 2rem;
 	font-weight: 700;
 }
 
@@ -724,13 +722,13 @@ p {
 }
 
 .service-card {
-	background:white;
+	background: white;
 	height: 100%;
 	padding: 30px 25px;
 	text-align: center;
 	box-shadow: var(--shadow-1);
-	border-radius:2rem;
-	margin-bottom:2rem;
+	border-radius: 2rem;
+	margin-bottom: 2rem;
 }
 
 .service-card::after {
@@ -769,9 +767,9 @@ p {
 	
 } */
 
- .container .btn-primary{
-margin-top:2rem;
-} 
+.container .btn-primary {
+	margin-top: 2rem;
+}
 
 /*-----------------------------------*\
   #FEATURES
@@ -1119,11 +1117,10 @@ margin-top:2rem;
 
 	/* hero */
 	.hero-content .hero-subtitle {
-		 margin-left: 5rem;  
-		
+		margin-left: 5rem;
 	}
 
-	.hero-content{
+	.hero-content {
 		margin: 0 auto;
 	}
 	.hero-title {
