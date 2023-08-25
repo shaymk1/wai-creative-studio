@@ -709,7 +709,7 @@ p {
   #SERVICE
 \*-----------------------------------*/
 
-.services{
+.services {
 	background-color: var(--mint-cream);
 }
 .service .section-text {
@@ -1118,7 +1118,6 @@ p {
 		font-size: 2rem;
 	}
 
-	
 	.footer .container {
 		width: var(--container-width-sm);
 		padding-left: 3rem;
@@ -1148,8 +1147,6 @@ p {
 	}
 }
 
-
-
 /* tablet */
 @media (max-width: 1024px) {
 	.mobile-contact-container {
@@ -1157,15 +1154,14 @@ p {
 	}
 
 	.hero-content .section-subtitle {
-		margin-left: 15rem;
+		margin-left: 18rem;
 	}
-	
 
 	.features-card {
 		/* background-color: var(--rich-black-fogra-29-1);
 		color: var(--cultured); */
 		border-radius: 2rem;
-	} 
+	}
 
 	/* .features-card .card-title {
 		color: var(--cultured);
@@ -1177,13 +1173,6 @@ p {
 	/* .features-card .card-text {
 		color: var(--light-gray);
 	} */
-
-	
-
-
-
-	
-
 }
 @media (min-width: 575px) {
 	/**
