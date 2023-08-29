@@ -3,6 +3,10 @@
 	<head>
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<!-- -
+			 extra meta tags 
+		-->
+
 		<meta name="theme-color" content="#000000" />
 		<meta
 			name="description"
@@ -15,28 +19,45 @@
 		<meta name="og:title" content="Wai Creative Studio Website" />
 		<meta
 			name="og:description"
-			content="This is a website of Wai Creative Studio, a digital agency based in Johannesburg, South Africa.We specialize in UX/UI design, Web Design and Web Development. Contact us for for reliable solutions "
+			content="This is a  website of Wai Creative Studio, a digital agency based in Johannesburg, South Africa.We specialize in UX/UI design, Web Design and Web Development. Contact us for for reliable solutions "
 		/>
+
+
 		<meta name="og:image" content="./assets/images/logo.svg" />
 		<meta
 			name="keywords"
 			content="digital agency, web design, wordpress, UX/UI, SEO, analytics, web development, coding, affordable, digital product, user centred"
 		/>
+		<!-- 
+    - custom css link
+  -->
 		<link rel="stylesheet" href="./assets/css/style.css" />
+		<!-- 
+    - preload images
+  -->
 		<link rel="preload" as="image" href="./assets/images/hero-image.jpg" />
 		<title>Wai Creative Studio</title>
 	</head>
 	<body>
+		<!-- 
+                       Header 
+                    -->
 		<header class="header" data-header>
 			<div class="container">
-				<a href="#" class="logo"
-					><img src="assets/images/logo.svg" alt="logo image"
-				/></a>
+				<a href="#" class="logo">
+					<img src="assets/images/logo.svg" alt="logo image" />
+				</a>
+
 				<nav class="navbar" data-navbar>
+					<!-- 
+                        mobile-menu 
+                    -->
 					<div class="wrapper">
-						<a href="#" class="logo"
-							><img src="assets/images/logo.svg" alt="logo image" /></a
-						><button
+						<a href="#" class="logo">
+							<img src="assets/images/logo.svg" alt="logo image" />
+						</a>
+
+						<button
 							class="nav-close-btn"
 							aria-label="close menu"
 							data-nav-toggler
@@ -44,17 +65,26 @@
 							<ion-icon name="close-outline" aria-hidden="true"></ion-icon>
 						</button>
 					</div>
+					<!-- 
+                        desktop-menu 
+                    -->
 					<ul class="navbar-list">
-						<li><a href="#home" class="navbar-link" data-nav-link>Home</a></li>
+						<li>
+							<a href="#home" class="navbar-link" data-nav-link>Home</a>
+						</li>
+
 						<li>
 							<a href="#about" class="navbar-link" data-nav-link>About</a>
 						</li>
+
 						<li>
 							<a href="#services" class="navbar-link" data-nav-link>Services</a>
 						</li>
+
 						<li>
 							<a href="#features" class="navbar-link" data-nav-link>Features</a>
 						</li>
+
 						<li>
 							<a href="#contact" class="navbar-link" data-nav-link
 								>Contact Us</a
@@ -62,12 +92,20 @@
 						</li>
 					</ul>
 				</nav>
+
 				<button class="nav-open-btn" aria-label="open menu" data-nav-toggler>
 					<ion-icon name="menu-outline" aria-hidden="true"></ion-icon>
 				</button>
+
+
+
 				<div class="overlay" data-nav-toggler data-overlay></div>
 			</div>
 		</header>
+
+		<!-- 
+        - #HERO
+      -->
 		<main>
 			<section class="section hero" id="home" aria-label="hero" role="region">
 				<div class="container">
@@ -75,20 +113,24 @@
 						<p class="hero-subtitle">
 							-Welcome to- <br /><span>Wai Creative Studio</span>
 						</p>
+						<!-- <h2>Wai Creative Studio</h2> -->
+
 						<h1 class="h1 hero-title">
-							Digital Product Design and Web Design Agency
+							Digital Product Design and Web Development agency
 						</h1>
+
 						<p class="hero-text">
-							We are a user-centric Digital and Website Design/Development
-							agency based in Johannesburg.We offer a variety of Professional
-							and affordable digital product services tailored to your business
-							needs.From UX/UI design, to Web Design/Web Development and Brand
-							Identity.
+							We specialize in creating functional and user centred Digital
+							Products. We offer a variety of services tailored to your needs.
+							From UX/UI design, to Web Design and Web Development.
 						</p>
+
 						<div class="btn-group">
 							<a href="#services" class="btn btn-primary">Our Offers</a>
 						</div>
 					</div>
+					<!-- has-before img-holder -->
+					<!-- style="--width: 650; --height: 650"  -->
 					<figure class="hero-banner">
 						<img
 							src="./assets/images/ux-4.jpg"
@@ -101,22 +143,40 @@
 					</figure>
 				</div>
 			</section>
+			<!--
+            - #ABOUT
+          -->
+
 			<section class="section about" id="about" aria-label="about">
 				<div class="container">
 					<div class="about-content">
 						<p class="section-subtitle text-center">-Learn More About Us-</p>
+
 						<h2 class="h2 section-title text-center">About Us</h2>
+
 						<p class="section-text">
 							Our job is to create beautiful functional user-centric Digital
 							Products for your business.
 						</p>
+
 						<ul class="about-list">
 							<li class="has-before">Customizable Pricing Models</li>
+
 							<li class="has-before">No Contracts</li>
+
 							<li class="has-before">6 Months Free Technical Support</li>
 						</ul>
+
 						<div class="btn-group">
 							<a href="#contact" class="btn btn-primary">Contact Us</a>
+
+							<!-- <button class="flex-btn">
+                    <div class="btn-icon">
+                      <ion-icon name="medal-outline" aria-hidden="true"></ion-icon>
+                    </div>
+    
+                    <span class="span">10+ Years Experience</span>
+                  </button> -->
 						</div>
 					</div>
 					<figure class="about-banner">
@@ -131,14 +191,22 @@
 					</figure>
 				</div>
 			</section>
+
+			<!--
+            - #SERVICE
+          -->
+
 			<section class="section services" id="services" aria-label="service">
 				<div class="container">
 					<p class="section-subtitle text-center">-What We Offer-</p>
+
 					<h2 class="h2 section-title text-center">Our Creative Services</h2>
+
 					<p class="section-text text-center">
 						We provide a variety of Digital Product Services to meet your
 						business needs.
 					</p>
+
 					<ul class="grid-list">
 						<li>
 							<div class="service-card has-after">
@@ -152,15 +220,24 @@
 										class="img"
 									/>
 								</figure>
+
 								<div class="card-content">
 									<h3 class="h3 card-title">UI/UX Design</h3>
+
 									<p class="card-text">
 										We design user-centric experience for your Digital products
 										using research and data.
 									</p>
+
+									<!-- <a href="#" class="btn-link">
+                        <span class="span">Read More</span>
+    
+                        <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+                      </a> -->
 								</div>
 							</div>
 						</li>
+
 						<li>
 							<div class="service-card has-after">
 								<figure class="card-icon">
@@ -173,16 +250,25 @@
 										class="img"
 									/>
 								</figure>
+
 								<div class="card-content">
 									<h3 class="h3 card-title">Web Development</h3>
+
 									<p class="card-text">
 										We create beautiful, functional, secure and user-centric web
 										applications for your business. From UX/UI Design to
 										Development using the latest technologies.
 									</p>
+
+									<!-- <a href="#" class="btn-link">
+                        <span class="span">Read More</span>
+    
+                        <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+                      </a> -->
 								</div>
 							</div>
 						</li>
+
 						<li>
 							<div class="service-card has-after">
 								<figure class="card-icon">
@@ -195,15 +281,24 @@
 										class="img"
 									/>
 								</figure>
+
 								<div class="card-content">
 									<h3 class="h3 card-title">SEO and Analytics</h3>
+
 									<p class="card-text">
 										We help drive traffic to your website by using Search Engine
 										Optimization strategy together with Analytics.
 									</p>
+
+									<!-- <a href="#" class="btn-link">
+                        <span class="span">Read More</span>
+    
+                        <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+                      </a> -->
 								</div>
 							</div>
 						</li>
+
 						<li>
 							<div class="service-card has-after">
 								<figure class="card-icon">
@@ -216,79 +311,113 @@
 										class="img"
 									/>
 								</figure>
+
 								<div class="card-content">
 									<h3 class="h3 card-title">Graphic Design</h3>
+
 									<p class="card-text">
 										For all your brand needs, from Logo Design to Brand Identity
 										Designs.
 									</p>
+
+									<!-- <a href="#" class="btn-link">
+                        <span class="span">Read More</span>
+    
+                        <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+                      </a> -->
 								</div>
 							</div>
 						</li>
 					</ul>
+
 					<a href="#contact" class="btn btn-primary">Contact Us</a>
 				</div>
 			</section>
+
+			<!--
+            - #FEATURES
+          -->
+
 			<section class="section features" id="features" aria-label="features">
 				<div class="container">
 					<p class="section-subtitle text-center">-Why Choose Us-</p>
+
 					<h2 class="h2 section-title text-center">Reasons to Choose Us</h2>
+
 					<p class="section-text text-center">
 						We care more about your needs than anything else.
 					</p>
+
 					<ul class="grid-list">
 						<li>
 							<div class="features-card">
 								<data class="card-number" value="01">01</data>
+
 								<h3 class="h3 card-title">Very Customizable Pricing Model</h3>
+
 								<p class="card-text">
 									We have different packages, if they don't meet your needs, we
 									Offer the ability to customize according to your needs.
 								</p>
 							</div>
 						</li>
+
 						<li>
 							<div class="features-card">
 								<data class="card-number" value="02">02</data>
+
 								<h3 class="h3 card-title">Free 6 Months Technical Support</h3>
+
 								<p class="card-text">
 									We offer free 6 months Technical support. Our Technicians will
 									be ready to take your calls.
 								</p>
 							</div>
 						</li>
+
 						<li>
 							<div class="features-card">
 								<data class="card-number" value="03">03</data>
+
 								<h3 class="h3 card-title">Great Customer Satisfaction</h3>
+
 								<p class="card-text">
 									We have many positive reviews from our happy clients.
 								</p>
 							</div>
 						</li>
+
 						<li>
 							<div class="features-card">
 								<data class="card-number" value="04">04</data>
+
 								<h3 class="h3 card-title">Friendly Stuff</h3>
+
 								<p class="card-text">
 									Our friendly stuff are ready to talk to you.We put so much
 									care and ubuntu into our creations.
 								</p>
 							</div>
 						</li>
+
 						<li>
 							<div class="features-card">
 								<data class="card-number" value="05">05</data>
+
 								<h3 class="h3 card-title">Quality Workmanship</h3>
+
 								<p class="card-text">
 									We pride ourselves with the high quality that we offer.
 								</p>
 							</div>
 						</li>
+
 						<li>
 							<div class="features-card">
 								<data class="card-number" value="06">06</data>
+
 								<h3 class="h3 card-title">Latest Technology</h3>
+
 								<p class="card-text">
 									Our Digital Products are designed using the latest versions of
 									software available to us.
@@ -298,6 +427,10 @@
 					</ul>
 				</div>
 			</section>
+
+			<!-- 
+    - #contact
+  -->
 			<section class="section contact" id="contact" aria-label="contact">
 				<div class="container">
 					<p class="section-subtitle text-center">-Please Get Intouch-</p>
@@ -310,16 +443,16 @@
 										name="call"
 										aria-hidden="true"
 										class="contact-icon"
-									></ion-icon
-									><a href="tel:+27662636370" class="contact-link">Call</a>
+									></ion-icon>
+									<a href="tel:+27662636370" class="contact-link">Call</a>
 								</li>
 								<li class="contact-item">
 									<ion-icon
 										name="mail"
 										aria-hidden="true"
 										class="contact-icon"
-									></ion-icon
-									><a
+									></ion-icon>
+									<a
 										href="mailto:waicreativestudio@gmail.com"
 										class="contact-link"
 										>Email</a
@@ -329,20 +462,25 @@
 						</div>
 						<div class="footer-item-list-2">
 							<ul class="social-list">
+								<!-- <li>
+											<a href="#" class="social-link">
+												<ion-icon name="logo-facebook"></ion-icon>
+											</a>
+										</li> -->
 								<li>
-									<a href="#" class="social-link"
-										><ion-icon name="logo-twitter"></ion-icon
-									></a>
+									<a href="#" class="social-link">
+										<ion-icon name="logo-twitter"></ion-icon>
+									</a>
 								</li>
 								<li>
-									<a href="#" class="social-link"
-										><ion-icon name="logo-instagram"></ion-icon
-									></a>
+									<a href="#" class="social-link">
+										<ion-icon name="logo-instagram"></ion-icon>
+									</a>
 								</li>
 								<li>
-									<a href="#" class="social-link"
-										><ion-icon name="logo-pinterest"></ion-icon
-									></a>
+									<a href="#" class="social-link">
+										<ion-icon name="logo-pinterest"></ion-icon>
+									</a>
 								</li>
 							</ul>
 						</div>
@@ -350,36 +488,73 @@
 				</div>
 			</section>
 		</main>
+
+		<!-- 
+    - #FOOTER
+  -->
+
 		<footer class="footer">
 			<div class="footer-top section">
 				<div class="container">
 					<div class="footer-list-container">
+						<!-- <div class="footer-list-1">
+							<ul class="footer-list">
+								<li>
+									<p class="footer-list-title">Services</p>
+								</li>
+							
+								<li>
+									<a href="#services" class="footer-link">Web Design</a>
+								</li>
+							
+								<li>
+									<a href="#services" class="footer-link">UX/UI Design</a>
+								</li>
+								<li>
+									<a href="#services" class="footer-link">Graphic Design</a>
+								</li>
+								<li>
+									<a href="#services" class="footer-link">SEO and Analytics</a>
+								</li>
+							</ul>
+						</div> -->
 						<div class="footer-list-2">
 							<h2 class="footer-list-heading">
 								<p class="footer-list-title">Wai Creative Studio</p>
 							</h2>
 							<ul class="footer-list">
-								<li><a href="#home" class="footer-link">Home</a></li>
-								<li><a href="#about" class="footer-link">About Us</a></li>
-								<li><a href="#services" class="footer-link">Services</a></li>
-								<li><a href="#contact" class="footer-link">Contact Us</a></li>
+								<li>
+									<a href="#home" class="footer-link">Home</a>
+								</li>
+								<li>
+									<a href="#about" class="footer-link">About Us</a>
+								</li>
+								<li>
+									<a href="#services" class="footer-link">Services</a>
+								</li>
+
+								<li>
+									<a href="#contact" class="footer-link">Contact Us</a>
+								</li>
 							</ul>
 						</div>
 						<div class="footer-brand">
-							<a href="#home" class="logo"
-								><img src="assets/images/LOGO-WHITE.svg" alt="logo"
-							/></a>
+							<a href="#home" class="logo">
+								<img src="assets/images/LOGO-WHITE.svg" alt="logo" />
+							</a>
 						</div>
 						<div class="footer-list-3">
-							<h2><p class="footer-list-title">Contact Us</p></h2>
+							<h2>
+								<p class="footer-list-title">Contact Us</p>
+							</h2>
 							<ul class="footer-list">
 								<li class="footer-item">
-									<ion-icon name="call" aria-hidden="true"></ion-icon
-									><a href="tel:+27662636370" class="contact-link">Call</a>
+									<ion-icon name="call" aria-hidden="true"></ion-icon>
+									<a href="tel:+27662636370" class="contact-link">Call</a>
 								</li>
 								<li class="footer-item">
-									<ion-icon name="mail" aria-hidden="true"></ion-icon
-									><a
+									<ion-icon name="mail" aria-hidden="true"></ion-icon>
+									<a
 										href="mailto:waicreativestudio@gmail.com"
 										class="contact-link"
 										>Email</a
@@ -387,20 +562,25 @@
 								</li>
 								<li class="footer-item">
 									<ul class="social-list">
+										<!-- <li>
+											<a href="#" class="social-link">
+												<ion-icon name="logo-facebook"></ion-icon>
+											</a>
+										</li> -->
 										<li>
-											<a href="#" class="social-link"
-												><ion-icon name="logo-twitter"></ion-icon
-											></a>
+											<a href="#" class="social-link">
+												<ion-icon name="logo-twitter"></ion-icon>
+											</a>
 										</li>
 										<li>
-											<a href="#" class="social-link"
-												><ion-icon name="logo-instagram"></ion-icon
-											></a>
+											<a href="#" class="social-link">
+												<ion-icon name="logo-instagram"></ion-icon>
+											</a>
 										</li>
 										<li>
-											<a href="#" class="social-link"
-												><ion-icon name="logo-pinterest"></ion-icon
-											></a>
+											<a href="#" class="social-link">
+												<ion-icon name="logo-pinterest"></ion-icon>
+											</a>
 										</li>
 									</ul>
 								</li>
@@ -409,20 +589,58 @@
 					</div>
 				</div>
 			</div>
+			<!-- <div class="footer-brand">
+						<a href="#home" class="logo">
+							<img src="assets/images/logo.svg" alt="logo" />
+						</a> -->
+
+			<!-- <p class="footer-text">
+							Lorem ipsum dolor sit amet consecte tur adipisicing elit, sed do
+							eiusmod tempor incididunt ut labore.
+						</p> -->
+
+			<!-- <form action="" class="newsletter-form">
+							<input
+								type="email"
+								name="email_address"
+								placeholder="Enter your email"
+								required
+								class="email-field"
+							/>
+
+							<button type="submit" class="form-btn">
+								<ion-icon name="paper-plane" aria-hidden="true"></ion-icon>
+							</button>
+						</form> -->
+			<!-- </div> -->
 			<div class="footer-bottom">
 				<div class="container">
 					<p class="copyright">
 						&copy; 2023 Wai Creative Studio | All Rights Reserved by
 						<a href="#" class="copyright-link">Shay Kekae</a>
 					</p>
+
 					<ul class="footer-bottom-list">
-						<li><a href="#" class="footer-bottom-link">Privacy Policy</a></li>
-						<li><a href="#" class="footer-bottom-link">Terms of Use</a></li>
+						<li>
+							<a href="#" class="footer-bottom-link">Privacy Policy</a>
+						</li>
+
+						<li>
+							<a href="#" class="footer-bottom-link">Terms of Use</a>
+						</li>
 					</ul>
 				</div>
 			</div>
 		</footer>
-		<script src="./assets/js/script.js" defer></script>
+
+		<!-- 
+    - custom js link
+  -->
+		<script src="./assets/js/script.js"></script>
+
+		<!-- 
+    - ionicon link
+  -->
 		<script
 			type="module"
 			src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"

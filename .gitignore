@@ -133,3 +133,6 @@ dist
 .index-old.html
 .style-old.css
 .style-mamo.css
+.style-minified.css
+.index-origin.html
+.index-origin-copy.html
